@@ -1,0 +1,28 @@
+# Simple Dice Roller in Ruby
+
+# Function to simulate rolling a six-sided die
+def roll_dice
+  rand(1..6)
+end
+
+# Display a welcome message
+puts "Welcome to the Dice Roller!"
+
+# Ask the user if they want to roll the dice
+print "Do you want to roll the dice? (y/n): "
+user_choice = gets.chomp.downcase
+
+# Check user's choice and roll the dice accordingly
+if user_choice == 'y'
+  result = roll_dice
+  puts "You rolled a #{result}!"
+  if result > 3 
+    puts "Critical Hit!"
+  else 
+    puts "Critical Miss!"
+  end
+elsif user_choice == 'n'
+  puts "Maybe next time! Goodbye."
+else
+  puts "Invalid choice. Please enter 'y' or 'n'."
+end
