@@ -21,3 +21,69 @@ Compiled Language: C++ code needs to be compiled into machine code before it can
 ### first we need to compile the program, then run the executable
 - g++ -o hello helloworld.cpp
 - ./helloworld
+
+
+ ### Chapter 1: Introduction to C++
+
+Overview of C++ and its history.
+Basic structure of a C++ program.
+Writing your first "Hello, World!" program.
+
+ ### Chapter 2: Variables and Data Types
+
+Declaring variables and their types (int, float, double, char, etc.).
+Understanding variable scope and lifetime.
+
+ ### Chapter 3: Operators and Expressions
+
+Arithmetic operators (+, -, *, /, %).
+Assignment operators (=, +=, -=, *=, /=, %=).
+Comparison operators (==, !=, <, >, <=, >=).
+Logical operators (&&, ||, !).
+
+
+ ### Chapter 4: Control Flow
+
+If statements and conditional expressions.
+Switch statements.
+Loops (while, do-while, for).
+
+
+
+ ### Chapter 5: Functions
+
+Function declaration and definition.
+Function parameters and return types.
+Function overloading.
+
+
+ ### Chapter 6: Arrays and Strings
+
+Declaring and initializing arrays.
+Accessing array elements.
+Working with strings (C-style strings and std::string).
+
+
+ ### Chapter 7: Pointers and References
+
+Understanding pointers and memory addresses.
+Pointer arithmetic.
+Passing arguments by reference.
+
+
+ ### Chapter 8: Classes and Objects
+
+Defining classes and objects.
+Member functions and access specifiers.
+Constructors and destructors.
+
+ ### Chapter 9: Inheritance and Polymorphism
+
+Creating derived classes from base classes.
+Overriding member functions.
+Using virtual functions for runtime polymorphism.
+
+ ### Chapter 10: File Handling
+
+Reading from and writing to files.
+Handling file streams and file modes.
